@@ -15,6 +15,11 @@ html {box-sizing: border-box;}
 *::before, 
 *::after {box-sizing: inherit;}
 
+/* conteiner */
+.conteiner {margin-left: auto;
+margin-right: auto;
+width: 1152px;
+}
 /* body */
 
 body {color:var(--primary-text-color);
@@ -78,6 +83,7 @@ ul {list-style-type: none;}
 
 .button {color:var(--second-text-color); 
     background:var(--accent-color);
+    padding-left: 32px;
     font-weight: 600;
     line-height: 1.1;
     display: flex;
@@ -90,7 +96,6 @@ ul {list-style-type: none;}
     border-radius: 4px;
     width: 170px;
     height: 51px;
-    padding-left: 32px;
     cursor: pointer;
     border: 0;}  
 
