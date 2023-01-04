@@ -52,7 +52,9 @@ ul {list-style-type: none;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--title-text-color);
-    text-decoration: none;}
+    text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 0;}
 
 .nav .site .link {font-weight: 600;
         color:var(--title-text-color);    
@@ -73,9 +75,10 @@ ul {list-style-type: none;
 /* block hero */
 
 .header {background:var(--title-text-color);
-    text-align: center;}
+    text-align: center;
+    margin-bottom: 120px;}
 .main.header {margin-top: 0;
-    margin-bottom: 48;
+    margin-bottom: 48px;
     font-weight: 600;
     font-size: 56px;
     line-height: 60px;    
@@ -140,21 +143,30 @@ ul {list-style-type: none;
     letter-spacing: 0.02em;
     color:var(--title-text-color);
     margin-top: 0;
-    margin-bottom: 0;}
+    margin-bottom: 8px;}
+
+    
 
 .description-text {color:var(--primary-text-color);
                    letter-spacing: 0.02em;
                    margin-top: 0;
                    margin-bottom: 0;}   
     
+.description-ul {margin-bottom: 120px;}                  
 /* images */
+
 
 .images-header {font-weight: 600;
     font-size: 36px;
     line-height: 1.1;    
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color:var(--title-text-color);}
+    color:var(--title-text-color);
+    margin-top: 0;
+    margin-bottom: 72px;}
+
+.images-ul { margin-top: 0;
+    margin-bottom: 240px;}
 
 /* our team */
 
@@ -164,15 +176,24 @@ ul {list-style-type: none;
     line-height: 1.1;    
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--title-text-color);}
+    color: var(--title-text-color);
+    margin-top: 0;
+    margin-bottom: 72px;}
+
+.foto {margin-top: 0;
+    margin-bottom: 32px;}    
 
 .team-header-name {font-weight: 600;
     font-size: 20px;  
     letter-spacing: 0.02em;  
-    color:var(--title-text-color);}  
+    color:var(--title-text-color);
+    margin-top: 0;
+    margin-bottom: 8px;}  
     
 .team-text-name {color:var(--primary-text-color);
-                 letter-spacing: 0.02em;}    
+                 letter-spacing: 0.02em;
+                 margin-top: 0;
+                 margin-bottom: 152px;}    
 
 
 /* footer */
@@ -180,7 +201,13 @@ ul {list-style-type: none;
 .footer {background: var(--title-text-color);}
 .footer.studio {color: var(--other-background-color); }
 .footer.text {color: #E7E9FC;
-              letter-spacing: 0.02em;}
+              letter-spacing: 0.02em;
+              margin-top: 0;
+              margin-bottom: 0;
+            padding-bottom: 100px;}
+
+.footerlogo {padding-top: 100px;
+margin-bottom: 16px;}          
 
 
 
