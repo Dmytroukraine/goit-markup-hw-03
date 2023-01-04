@@ -137,6 +137,8 @@ ul {list-style-type: none;
 
 /* description */
 
+.description-ul {padding-bottom: 120px;}  
+
 .description-header {font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
@@ -145,16 +147,12 @@ ul {list-style-type: none;
     margin-top: 0;
     margin-bottom: 8px;}
 
-    
-
 .description-text {color:var(--primary-text-color);
                    letter-spacing: 0.02em;
                    margin-top: 0;
                    margin-bottom: 0;}   
-    
-.description-ul {margin-bottom: 120px;}                  
+                 
 /* images */
-
 
 .images-header {font-weight: 600;
     font-size: 36px;
