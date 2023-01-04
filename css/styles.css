@@ -97,7 +97,7 @@ ul {list-style-type: none;}
     width: 170px;
     height: 51px;
     cursor: pointer;
-    border: 0;}  
+    border: 1px solid transparent}  
 
 .button.all {padding: 8px 16px;
     width: 69px;
