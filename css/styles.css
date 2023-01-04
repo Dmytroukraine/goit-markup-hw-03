@@ -58,7 +58,7 @@ ul {list-style-type: none;
     margin-bottom: 0;}
 
 .site {display: flex;}
-.site .item {margin-right: 40px;}
+.site .item:not(:last-child) {margin-right: 40px;}
 
 .nav .site .link {font-weight: 600;
         color:var(--title-text-color);    
