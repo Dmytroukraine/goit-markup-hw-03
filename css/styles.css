@@ -138,10 +138,14 @@ ul {list-style-type: none;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color:var(--title-text-color);}
+    color:var(--title-text-color);
+    margin-top: 0;
+    margin-bottom: 0;}
 
 .description-text {color:var(--primary-text-color);
-                   letter-spacing: 0.02em;}   
+                   letter-spacing: 0.02em;
+                   margin-top: 0;
+                   margin-bottom: 0;}   
     
 /* images */
 
