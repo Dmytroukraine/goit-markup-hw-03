@@ -19,6 +19,7 @@ html {box-sizing: border-box;}
 .conteiner {margin-left: auto;
 margin-right: auto;
 width: 1152px;
+border: 1px solid; color: #4D5AE5;
 }
 /* body */
 
@@ -135,6 +136,9 @@ ul {list-style-type: none;
 .button.secondary:hover {color: var(--second-text-color); background-color: var(--accent-color); }
 .button.secondary:focus {color: var(--second-text-color); background-color: var(--accent-color);  }   
 
+.btn-list  {margin-top: 96px;
+margin-bottom: 72px;}
+
 /* description */
 
 .description-ul {margin-bottom: 120px;}  
@@ -165,6 +169,9 @@ ul {list-style-type: none;
 
 .images-ul { margin-top: 0;
     margin-bottom: 240px;}
+
+.ul-images  {margin-top: 0;
+margin-bottom: 120px;}  
 
 /* our team */
 
