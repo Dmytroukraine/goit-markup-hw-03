@@ -137,7 +137,7 @@ ul {list-style-type: none;
 
 /* description */
 
-.description-ul {padding-bottom: 120px;}  
+.description-ul {margin-bottom: 120px;}  
 
 .description-header {font-weight: 600;
     font-size: 20px;
