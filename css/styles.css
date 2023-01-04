@@ -72,27 +72,25 @@ ul {list-style-type: none;
 
 /* block hero */
 
-.header {background:var(--title-text-color);}
+.header {background:var(--title-text-color);
+    text-align: center;}
 .main.header {margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 48;
     font-weight: 600;
     font-size: 56px;
-    line-height: 60px;
-    text-align: center;
+    line-height: 60px;    
     letter-spacing: 0.02em;
-    color:var(--second-text-color);
-    margin-bottom: 48px;}    
+    color:var(--second-text-color);}    
 
 
 /* button */
 
 .button {color:var(--second-text-color); 
     background:var(--accent-color);
-    padding-left: 32px;
+    padding-left: 16px 32px;
     font-weight: 600;
     line-height: 1.1;
-    display: flex;
-    align-items: center;
+    align-items: center; 
     letter-spacing: 0.04em;
     flex: none;
     order: 0;
@@ -102,7 +100,8 @@ ul {list-style-type: none;
     width: 170px;
     height: 51px;
     cursor: pointer;
-    border: 1px solid transparent}  
+    border: 1px solid transparent;}
+     
 
 .button.all {padding: 8px 16px;
     width: 69px;
