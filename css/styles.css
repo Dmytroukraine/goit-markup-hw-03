@@ -60,7 +60,10 @@ ul {list-style-type: none;
 .site {display: flex;}
 .site .item:not(:last-child) {margin-right: 40px;}
 
-.nav .site .link {font-weight: 600;
+.nav .site .link {display: block;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        font-weight: 600;
         color:var(--title-text-color);    
         align-items: center;
         letter-spacing: 0.02em;
