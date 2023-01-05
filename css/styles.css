@@ -200,7 +200,10 @@ button {color:var(--second-text-color);
                      letter-spacing: 0.02em;
                      color:var(--title-text-color);
                      margin-top: 32px;
-                     margin-bottom: 8px;}
+                     margin-bottom: 8px;
+                     margin-left: 16px;}
+
+.style {margin-left: 16px;}                     
 
 .description-text {color:var(--primary-text-color);
                    letter-spacing: 0.02em;
@@ -232,10 +235,8 @@ button {color:var(--second-text-color);
                flex-wrap: wrap;}  
 
 .list {background: #FFFFFF;
-       border: 0.5px solid #F4F4FD;
-       box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
-       0px 1px 1px rgba(46, 47, 66, 0.16),
-       0px 2px 1px rgba(46, 47, 66, 0.08);
+       border-bottom: 0.5px solid #F4F4FD;
+       box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08);
 
        margin-right: 24px;
        margin-bottom: 48px;
@@ -247,7 +248,7 @@ button {color:var(--second-text-color);
 
 .team-name {display: flex;}
           
- .team-name .team-foto + .team-foto {margin-left: 24px;} 
+.team-name .team-foto + .team-foto {margin-left: 24px;} 
 
 .team-header {font-weight: 600;
               font-size: 36px;
