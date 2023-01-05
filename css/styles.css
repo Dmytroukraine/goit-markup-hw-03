@@ -27,6 +27,7 @@ body {color:var(--primary-text-color);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
+    line-height: 24px;
     line-height: 1,5;
     margin: 0;}
 ul {list-style-type: none;
@@ -45,6 +46,7 @@ ul {list-style-type: none;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
+    line-height: 24px;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -75,10 +77,10 @@ ul {list-style-type: none;
                   margin-top: 24px;
                   margin-bottom: 24px;
                   font-weight: 600;
+                  line-height: 24px;
                   color:var(--title-text-color);    
                   align-items: center;
-                  letter-spacing: 0.02em;
-                  text-transform: uppercase; 
+                  letter-spacing: 0.02em;                  
                   text-decoration: none;}
 
 .work {text-decoration: none;}
