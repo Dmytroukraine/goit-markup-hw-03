@@ -281,6 +281,9 @@ margin-bottom: 120px;}
                  margin-bottom: 152px;
                  text-align: center;}    
 
+.description-header:hover, .description-header:focus {color: var(--accent-color);}
+.style:hover, .style:focus {color: var(--accent-color);}                 
+
 
 /* footer */
 
