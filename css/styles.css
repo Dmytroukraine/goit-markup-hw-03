@@ -211,7 +211,14 @@ button {color:var(--second-text-color);
                    margin-bottom: 8px;
                    margin-left: 16px;}               
 
-.style {margin-left: 16px;}                     
+.style {font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #434455;
+        margin-left: 16px;}                     
 
 .description-text {color:var(--primary-text-color);
                    letter-spacing: 0.02em;
@@ -300,6 +307,8 @@ button {color:var(--second-text-color);
                  margin-bottom: 152px;}    
 
 .description-header:hover, .description-header:focus {color: var(--accent-color);}
+
+.description-app:hover, .description-app:focus {color: var(--accent-color);}
 
 .style:hover, .style:focus {color: var(--accent-color);}                 
 
