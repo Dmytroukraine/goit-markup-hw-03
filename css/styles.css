@@ -196,7 +196,6 @@ margin-bottom: 72px;}
                    margin-bottom: 0;}   
                  
 /* images */
-.images {}
 
 .images-header {font-weight: 600;
     font-size: 36px;
@@ -205,12 +204,15 @@ margin-bottom: 72px;}
     text-transform: capitalize;
     color:var(--title-text-color);
     margin-top: 0;
-    margin-bottom: 72px;}
+    margin-bottom: 72px;
+    text-align: center;}
+
+
 
 .images-foto { display: flex;
     margin-top: 0;
     margin-bottom: 240px;}
-
+.images-foto .images-first + .images-first {margin-left: 24px;}
 .work-images  {margin-top: 0;
 margin-bottom: 120px;}  
 
