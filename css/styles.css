@@ -66,8 +66,7 @@ ul {list-style-type: none;
 .main-nav {display: flex;}
 .nav {display: flex;
     margin-right: 331px;}
-.site {display: flex;
-    }
+.site {display: flex;}
 .site .item + .item {margin-left: 40px;}
 
 .mail {display: flex;}
@@ -101,7 +100,7 @@ ul {list-style-type: none;
 /* block hero */
 
 .header-title {background:var(--title-text-color);
-    text-align: center;
+    text-align: center; 
     margin-bottom: 120px;}
 .main.header {margin-top: 0;
     margin-bottom: 48px;
@@ -161,8 +160,13 @@ ul {list-style-type: none;
 .button.secondary:hover {color: var(--second-text-color); background-color: var(--accent-color); }
 .button.secondary:focus {color: var(--second-text-color); background-color: var(--accent-color);  }   
 
+
+
+.btn-list {display: flex; align-items: center; justify-content: center;}
 .btn-list  {margin-top: 96px;
 margin-bottom: 72px;}
+
+.btn-list .btn + .btn {margin-left: 24px;}
 
 /* description */
 
@@ -192,11 +196,21 @@ margin-bottom: 72px;}
     margin-top: 0;
     margin-bottom: 72px;}
 
-.images-ul { margin-top: 0;
+.images-foto { margin-top: 0;
     margin-bottom: 240px;}
 
-.ul-images  {margin-top: 0;
+.work-images  {margin-top: 0;
 margin-bottom: 120px;}  
+
+.list {background: #FFFFFF;
+        border: 0.5px solid #F4F4FD;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+        margin-right: 0;
+        width: 360px;}
+
+
 
 /* our team */
 
