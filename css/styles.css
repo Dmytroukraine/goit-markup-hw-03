@@ -15,10 +15,16 @@ html {box-sizing: border-box;}
 *::before, 
 *::after {box-sizing: inherit;}
 
+h1, h2, h3, h4, h5, h6, p {margin: 0;}
+
+ul {list-style-type: none;
+    padding: 0;
+    margin: 0;}
+
 /* conteiner */
-.conteiner {margin-left: auto;
-            margin-right: auto;
-            width: 1158px;
+
+.conteiner {width: 1158px;
+            margin: 0 auto;
             padding-left: 15px;
             padding-right: 15px;}
 /* body */
@@ -38,10 +44,6 @@ body {color:var(--primary-text-color);
       box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
       justify-content: center;}
 
-ul {list-style-type: none;
-    padding: 0;
-    margin: 0;}
-
 /* header */
  
 .header-main {border-width: 0, 0, 5px, 0;
@@ -55,8 +57,8 @@ ul {list-style-type: none;
       letter-spacing: 0.03em;
       text-transform: uppercase;    
       color:var(--accent-color);}
+
  .logo {font-family: 'Raleway' ;
-        /* font-style: normal; */
         font-weight: 800;
         font-size: 18px;
         line-height: 1.3;
@@ -112,22 +114,25 @@ ul {list-style-type: none;
 
 .header-title {background:var(--title-text-color);
                text-align: center; 
-               margin-bottom: 120px;}
+               padding-top: 192px;
+               padding-bottom: 192px;}
 
 .main.header {margin-top: 0;
               margin-bottom: 48px;
+              margin-right: auto;
+              margin-left: auto;
               font-weight: 600;
               font-size: 56px;
               line-height: 1.07;    
               letter-spacing: 0.02em;
+              align-self: center;
               color:var(--second-text-color);
-              padding-top: 192px;
-              padding-bottom: 48px;}    
+              width: 500px;}    
 
 
 /* button */
- 
-button {color:var(--second-text-color); 
+
+.button {color:var(--second-text-color); 
         background:var(--accent-color);    
         padding-left: 16px 32px;    
         font-weight: 600;
@@ -143,10 +148,10 @@ button {color:var(--second-text-color);
 
         width: 170px;
         height: 51px;
-        cursor: pointer;}
+        cursor: pointer;} 
 
-.button.primary {margin-bottom: 192px;}
- 
+.button .primary {margin-bottom: 192px;}
+
 .button.all {padding: 8px 16px;
              width: 69px;
              height: 48px;}
@@ -212,11 +217,7 @@ button {color:var(--second-text-color);
                    margin-bottom: 8px;
                    margin-left: 16px;}               
 
-.style {font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
+.style {line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
         margin-left: 16px;}                     
