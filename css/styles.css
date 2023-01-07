@@ -290,20 +290,21 @@ body {color:var(--primary-text-color);
 .foto {display: block;
        max-width: 100%;
        height: auto;
-       margin-top: 0;
-       padding-bottom: 32px;}    
+       margin-top: 0;}    
 
 .team-header-name {font-weight: 600;
                    font-size: 20px;  
                    letter-spacing: 0.02em;  
                    color:var(--title-text-color);
                    text-align: center;
-                   padding-bottom: 8px;}  
+                    margin-bottom: 8px;}  
     
 .team-text-name {color:var(--primary-text-color);
                  letter-spacing: 0.02em;
-                 text-align: center;
-                 padding-bottom: 32px; }    
+                 text-align: center;}    
+
+.full-position { padding-top: 32px;
+             padding-bottom: 32px;}                  
 
 .description-app:hover, .description-app:focus {color: var(--accent-color);}
 
