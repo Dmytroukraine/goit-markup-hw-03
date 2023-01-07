@@ -117,15 +117,14 @@ body {color:var(--primary-text-color);
                padding-top: 192px;
                padding-bottom: 192px;}
 
-.main.header {margin-top: 0;
-              margin-bottom: 48px;
+.main.header {padding-bottom: 48px;
+              align-self: center; 
               margin-right: auto;
               margin-left: auto;
               font-weight: 600;
               font-size: 56px;
               line-height: 1.07;    
               letter-spacing: 0.02em;
-              align-self: center;
               color:var(--second-text-color);
               width: 500px;}    
 
@@ -150,7 +149,6 @@ body {color:var(--primary-text-color);
         height: 51px;
         cursor: pointer;} 
 
-.button .primary {margin-bottom: 192px;}
 
 .button.all {padding: 8px 16px;
              width: 69px;
@@ -193,8 +191,10 @@ body {color:var(--primary-text-color);
 
 /* description */
 
-.description-ul {margin-bottom: 120px;
-                 display: flex;}  
+.description {padding-top: 120px;
+              padding-bottom: 120px;}
+
+.description-ul {display: flex;}  
 
 .description-ul .description-title + .description-title {margin-left: 24px;} 
 
@@ -205,8 +205,7 @@ body {color:var(--primary-text-color);
                      line-height: 1.2;
                      letter-spacing: 0.02em;
                      color:var(--title-text-color);
-                     margin-top: 32px;
-                     margin-bottom: 8px;}
+                     padding-bottom: 8px;}
 
 .description-app  {font-weight: 600;
                    font-size: 20px;
@@ -223,11 +222,15 @@ body {color:var(--primary-text-color);
         margin-left: 16px;}                     
 
 .description-text {color:var(--primary-text-color);
-                   letter-spacing: 0.02em;
-                   margin-top: 0;
-                   margin-bottom: 0;}   
+                   letter-spacing: 0.02em;}   
                  
 /* images */
+
+.image {display: block;
+       max-width: 100%;
+       height: auto;}
+
+.images {padding-bottom: 120px;}       
 
 .images-header {font-weight: 600;
                 font-size: 36px;
@@ -240,9 +243,7 @@ body {color:var(--primary-text-color);
                 margin-top: 0;
                 margin-bottom: 72px;}
 
-.images-foto {display: flex;
-              margin-top: 0;
-              margin-bottom: 120px;}
+.images-foto {display: flex;}
 
 .images-foto .images-first + .images-first {margin-left: 24px;}
 
@@ -261,7 +262,9 @@ body {color:var(--primary-text-color);
         
 /* our team */
 
-.team {background:var(--other-background-color);}
+.team {background:var(--other-background-color);
+       padding-bottom: 120px;
+       padding-top: 120px;}
 
 .team-name {display: flex;}
           
@@ -274,41 +277,33 @@ body {color:var(--primary-text-color);
               text-transform: capitalize;
               color: var(--title-text-color);
               text-align: center;
-
               margin-top: 0;
-              margin-bottom: 72px;
-              padding-top: 120px;}
+              padding-bottom: 72px;}
 
 .team-foto {background: #FFFFFF;
             box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
             0px 1px 1px rgba(46, 47, 66, 0.16), 
             0px 2px 1px rgba(46, 47, 66, 0.08);
             border-radius: 0px 0px 4px 4px;
-
-            width: 264px;
-            height: 380px;
-            margin-bottom: 120px;}
+            width: 264px;}
         
-.foto {margin-top: 0;
-       margin-bottom: 32px;}    
+.foto {display: block;
+       max-width: 100%;
+       height: auto;
+       margin-top: 0;
+       padding-bottom: 32px;}    
 
 .team-header-name {font-weight: 600;
                    font-size: 20px;  
                    letter-spacing: 0.02em;  
                    color:var(--title-text-color);
                    text-align: center;
-
-                   margin-top: 0;
-                   margin-bottom: 8px;}  
+                   padding-bottom: 8px;}  
     
 .team-text-name {color:var(--primary-text-color);
                  letter-spacing: 0.02em;
                  text-align: center;
-
-                 margin-top: 0;
-                 margin-bottom: 152px;}    
-
-.description-header:hover, .description-header:focus {color: var(--accent-color);}
+                 padding-bottom: 32px; }    
 
 .description-app:hover, .description-app:focus {color: var(--accent-color);}
 
