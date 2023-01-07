@@ -18,7 +18,9 @@ html {box-sizing: border-box;}
 /* conteiner */
 .conteiner {margin-left: auto;
             margin-right: auto;
-            width: 1158px;}
+            width: 1158px;
+            padding-left: 15px;
+            padding-right: 15px;}
 /* body */
 
 body {color:var(--primary-text-color);
@@ -65,8 +67,8 @@ ul {list-style-type: none;
         text-decoration: none;
         color: var(--title-text-color);
        
-        margin-top: 24px;
-        margin-bottom: 24px;
+        padding-top: 24px;
+        padding-bottom: 24px;
         margin-right: 77px;}
 
 .main-nav {display: flex;}
@@ -83,12 +85,12 @@ ul {list-style-type: none;
 .mail .item + .item {margin-left: 40px;}
 
 .mail .address {display: block;
-                margin-top: 24px;
-                margin-bottom: 24px;}
+                padding-top: 24px;
+                padding-bottom: 24px;}
 
 .nav .site .link {display: block;
-                  margin-top: 24px;
-                  margin-bottom: 24px;
+                  padding-top: 24px;
+                  padding-bottom: 24px;
                   font-weight: 600;
                   line-height: 24px;
                   color:var(--title-text-color);    
