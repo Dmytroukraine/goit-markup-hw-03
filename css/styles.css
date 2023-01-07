@@ -58,7 +58,7 @@ body {color:var(--primary-text-color);
       text-transform: uppercase;    
       color:var(--accent-color);}
 
- .logo {font-family: 'Raleway' ;
+.logo {font-family: 'Raleway' ;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.3;
@@ -183,9 +183,6 @@ body {color:var(--primary-text-color);
 
 .btn-list {display: flex; align-items: center; justify-content: center;}
 
-.btn-list  {margin-top: 96px;
-            margin-bottom: 72px;}
-
 .btn-list .btn + .btn {margin-left: 24px;}
 
 /* description */
@@ -211,14 +208,11 @@ body {color:var(--primary-text-color);
                    line-height: 1.2;
                    letter-spacing: 0.02em;
                    color:var(--title-text-color);
-                   margin-top: 32px;
-                   margin-bottom: 8px;
-                   margin-left: 16px;}               
+                   margin-bottom: 8px;}               
 
 .style {line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
-        margin-left: 16px;}                     
+        color: #434455;}                     
 
 .description-text {color:var(--primary-text-color);
                    letter-spacing: 0.02em;}   
@@ -238,26 +232,35 @@ body {color:var(--primary-text-color);
                 text-transform: capitalize;
                 color:var(--title-text-color);
                 text-align: center;
-
                 margin-top: 0;
                 margin-bottom: 72px;}
 
 .images-foto {display: flex;}
 
+.portfolio-main {padding-top: 96px;
+                 padding-bottom: 120px;}
+
 .images-foto .images-first + .images-first {margin-left: 24px;}
 
 .work-images  {margin-top: 0;
-               margin-bottom: 120px;
                display: flex;
-               flex-wrap: wrap;}  
+               flex-wrap: wrap;
+               padding-top: 72px;}  
 
 .list {background: #FFFFFF;
        border-bottom: 0.5px solid #F4F4FD;
-       box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08);
+       box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08);}
 
-       margin-right: 24px;
-       margin-bottom: 48px;
-       width: 360px;}
+.work-images .list.a + .list.a {margin-left: 24px;} 
+.work-images .list.b + .list.b {margin-left: 24px;} 
+.work-images .list.c + .list.c {margin-left: 24px;}
+
+.list.a {margin-bottom: 48px;}
+.list.b {margin-bottom: 48px;}
+
+
+.services {padding-top: 32px;
+           padding-bottom: 32px;}
         
 /* our team */
 
@@ -296,14 +299,14 @@ body {color:var(--primary-text-color);
                    letter-spacing: 0.02em;  
                    color:var(--title-text-color);
                    text-align: center;
-                    margin-bottom: 8px;}  
+                   margin-bottom: 8px;}  
     
 .team-text-name {color:var(--primary-text-color);
                  letter-spacing: 0.02em;
                  text-align: center;}    
 
 .full-position { padding-top: 32px;
-             padding-bottom: 32px;}                  
+                 padding-bottom: 32px;}                  
 
 .description-app:hover, .description-app:focus {color: var(--accent-color);}
 
