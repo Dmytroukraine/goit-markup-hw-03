@@ -35,7 +35,7 @@ body {color:var(--primary-text-color);
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
-      line-height: 1,5;
+      line-height: 1.5;
 
       margin: auto;
       position: relative;
@@ -92,7 +92,6 @@ body {color:var(--primary-text-color);
                   padding-top: 24px;
                   padding-bottom: 24px;
                   font-weight: 600;
-                  line-height: 1.5;
                   color:var(--title-text-color);    
                   align-items: center;
                   letter-spacing: 0.02em;                  
@@ -116,7 +115,7 @@ body {color:var(--primary-text-color);
                padding-top: 192px;
                padding-bottom: 192px;}
 
-.main.header {padding-bottom: 48px;
+.main.header {margin-bottom: 48px;
               align-self: center; 
               margin-right: auto;
               margin-left: auto;
@@ -181,7 +180,9 @@ body {color:var(--primary-text-color);
 
 .button.secondary:focus {color: var(--second-text-color); background-color: var(--accent-color);  }   
 
-.btn-list {display: flex; align-items: center; justify-content: center;}
+.btn-list {display: flex;
+           align-items: center;
+           justify-content: center;}
 
 .btn-list .btn + .btn {margin-left: 24px;}
 
@@ -210,8 +211,7 @@ body {color:var(--primary-text-color);
                    color:var(--title-text-color);
                    margin-bottom: 8px;}               
 
-.style {line-height: 1.5;
-        letter-spacing: 0.02em;
+.style {letter-spacing: 0.02em;
         color: #434455;}                     
 
 .description-text {color:var(--primary-text-color);
@@ -245,11 +245,11 @@ body {color:var(--primary-text-color);
 .work-images  {margin-top: 0;
                display: flex;
                flex-wrap: wrap;
-               padding-top: 72px;}  
+               margin-top: 72px;}  
 
-.list {background: #FFFFFF;
-       border-bottom: 0.5px solid #F4F4FD;
-       box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08);}
+.list {background:var(--second-text-color)
+       border: 0.5px solid #F4F4FD;
+       box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);}
 
 .work-images .list.a + .list.a {margin-left: 24px;} 
 .work-images .list.b + .list.b {margin-left: 24px;} 
@@ -280,7 +280,7 @@ body {color:var(--primary-text-color);
               color: var(--title-text-color);
               text-align: center;
               margin-top: 0;
-              padding-bottom: 72px;}
+              margin-bottom: 72px;}
 
 .team-foto {background: #FFFFFF;
             box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
@@ -332,7 +332,7 @@ body {color:var(--primary-text-color);
 
 .footer-text {color: #E7E9FC;
               letter-spacing: 0.02em;
-              width: 264px;}
+              width: 265px;}
 
 /* hiden title */
 
