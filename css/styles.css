@@ -202,7 +202,7 @@ body {color:var(--primary-text-color);
                      line-height: 1.2;
                      letter-spacing: 0.02em;
                      color:var(--title-text-color);
-                     padding-bottom: 8px;}
+                     margin-bottom: 8px;}
 
 .description-app  {font-weight: 600;
                    font-size: 20px;
