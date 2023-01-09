@@ -260,7 +260,8 @@ body {color:var(--primary-text-color);
 
 
 .services {padding-top: 32px;
-           padding-bottom: 32px;}
+           padding-bottom: 32px;
+           padding-left: 16px;}
         
 /* our team */
 
